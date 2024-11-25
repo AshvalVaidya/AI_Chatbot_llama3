@@ -26,7 +26,7 @@ def chat_groq(messages):
 def main():
     st.set_page_config(page_title='Simple Chatbot')
 
-    st.title("AI Chatbot")
+    st.title("AI Chatbot using llama3 LLM Model")
     with st.expander("Instructions"):
         st.write("1. Enter a question in the text area.")
         st.write("2. Submit the question to interact with the AI chatbot.")
